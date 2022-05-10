@@ -1,0 +1,49 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    font-size: 20px;
+
+}
+
+
+h2, h3{ 
+    text-align: center;
+}
+
+#banner{
+    width: 100%;
+
+}
+
+em strong{
+    color:#FF0000;
+    font-size: 20px;
+}
+
+.itens{
+    font-style: italic;
+  
+}
+
+.beneficios{
+    background-color: white;
+    padding: 20px;
+}
+
+.imgbeneficios{
+    width: 50%;
+}
+
+.principal{
+    background-color: #cccccc;
+    padding: 30px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}

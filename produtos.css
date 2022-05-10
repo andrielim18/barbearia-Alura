@@ -1,0 +1,160 @@
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:rgb(121, 121, 4);
+    text-decoration:underline ;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 50px;
+}
+
+.box{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.produtos li{
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 2,5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;  
+}
+.produtos li:hover{
+    color:rgb(121, 121, 4)
+}
+
+.produtos li:hover h2{
+    font-size: 33px;
+}
+
+.produtos li:active{
+    color: green;
+}
+
+
+.prod-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.prod-descricao{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background-image: url(img/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright{
+    color:white;
+    font-style: italic;
+    font-size: 13px;
+    margin-top:20px;
+}
+
+main{
+    width: 940px;
+    margin:40px auto;
+   
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.input-padrao{
+    display: block;
+    margin-bottom: 20px;
+    width: 50%;
+    padding: 10px 25px;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    padding: 15px 0;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+  
+}
+
+.enviar:hover{
+    background-color: darkgoldenrod;
+    transition: 1s;
+    cursor:pointer;
+    transform: scale(1.2);
+
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #437e0e;
+    padding: 8px 15px;
+}
